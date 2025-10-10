@@ -1,5 +1,5 @@
 <?php
-//Defina dos variables con valores numéricos y realice operaciones aritméticas
+//DefinO dos variables con valores numéricos y realizo operaciones aritméticas
 //básicas (suma, resta, multiplicación, división, módulo).
 $a=5;
 $b=5;
@@ -18,7 +18,7 @@ echo "<br></br>";
 echo $a ** $b;
 echo "<br></br>";
 
-//Use operadores de comparación para verificar si una variable es mayor,
+//Uso operadores de comparación para verificar si una variable es mayor,
 //menor o igual que la otra.
 echo $a==$b;
 echo "<br></br>";
@@ -37,8 +37,8 @@ echo $esPar;//Da 1 porque es verdadero.
 echo "<br></br>";
 
 
-//Aplica operadores lógicos para verificar si ambas variables son mayores de
-//10 y muestra un mensaje dependiendo del resultado.
+//Aplico operadores lógicos para verificar si ambas variables son mayores de
+//10 y muestro un mensaje dependiendo del resultado.
 
 if($a >10 && $b >10){
     echo"Ambas son mayores";
@@ -47,7 +47,7 @@ if($a >10 && $b >10){
 };
 echo "<br></br>";
 
-//Implementa operadores de incremento y decremento y muestra cómo
+//Implemento operadores de incremento y decremento y muestro cómo
 //cambian los valores de las variables.
 
 $a++;

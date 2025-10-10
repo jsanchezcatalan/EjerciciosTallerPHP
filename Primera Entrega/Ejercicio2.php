@@ -1,5 +1,6 @@
 <?php
-
+//declaro variables de tipo entero, float, booleanos y de tipo string
+//renderizandolas a traves de var_dump.
 $edad=24;
 var_dump($edad);
 echo "<br></br>";
@@ -13,11 +14,11 @@ $profesion="Desarrollador Web";
 var_dump($profesion);
 echo "<br></br>";
 
-//array Asociativo
+//array Asociativo llamado persona donde incluye el conjunto de variables y renderiza a traves de var_dump.
 $aPersona=["nombre"=>"Jesus", "apellidos"=>"Sanchez Catalan", "edad"=>24, "altura"=> 1.79, "casado"=>false, "profesion"=>"Desarrollador Web"];
 var_dump($aPersona);
 
-//Constante
+//Constante declarada dandole el valor de Programación PHP
 define("NOMBRE_CURSO","Programacion PHP");
 echo NOMBRE_CURSO;
 echo "<br></br>";
